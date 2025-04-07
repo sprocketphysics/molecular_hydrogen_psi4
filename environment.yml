@@ -1,0 +1,20 @@
+name: psi4
+channels:
+    - conda-forge
+dependencies:
+    - python=3.10
+    - pip
+    - psi4
+
+    - pip:
+        - astropy
+        - holoviews[recommended]
+        - hvplot
+        - ipython
+        - ipywidgets
+        - isort
+        - jupyterlab
+        - matplotlib
+        - numpy
+        - scikit-learn
+        - scipy
