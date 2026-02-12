@@ -22,6 +22,7 @@ https://en.wikipedia.org/wiki/M%C3%B8ller%E2%80%93Plesset_perturbation_theory
 ## Prerequisites
 
 - Conda or Mamba package manager
+- Git version control (can install with Conda, Mamba, or another package manager like homebrew for mac)
 - Python 3.10
 - Make
 
