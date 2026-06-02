@@ -1,0 +1,1322 @@
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on Angelinas-MacBook-Pro-661.local
+*** at Thu Feb 19 13:50:44 2026
+
+   => Loading Basis Set <=
+
+    Name: CC-PVTZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry H          line    23 file /opt/anaconda3/envs/psi4/share/psi4/basis/cc-pvtz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        4 Threads,   2861 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: D_inf_h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         H            0.000000000000     0.000000000000    -0.462814070352     1.007825032230
+         H            0.000000000000     0.000000000000     0.462814070352     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     39.04525  C =     39.04525 [cm^-1]
+  Rotational constants: A = ************  B = 1170547.26614  C = 1170547.26614 [MHz]
+  Nuclear repulsion =    0.571695249312324
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVTZ
+    Blend: CC-PVTZ
+    Number of shells: 12
+    Number of basis functions: 28
+    Number of Cartesian functions: 30
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              12
+      Number of primitives:             16
+      Number of atomic orbitals:        30
+      Number of basis functions:        28
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 4
+
+  Performing in-core PK
+  Using 165242 doubles for integral storage.
+  We computed 5074 shell quartets total.
+  Whereas there are 3081 unique shell quartets.
+    64.69 percent of shell quartets recomputed by reordering.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:             2145
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              4
+
+  Minimum eigenvalue in the overlap matrix is 4.6102712063E-03.
+  Reciprocal condition number of the overlap matrix is 1.1420963456E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         28      28 
+   -------------------------
+    Total      28      28
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -1.11521721019196   -1.11522e+00   0.00000e+00 
+   @RHF iter   1:    -1.09213582697196    2.30814e-02   4.79588e-03 ADIIS/DIIS
+   @RHF iter   2:    -1.11401702463442   -2.18812e-02   8.38297e-04 ADIIS/DIIS
+   @RHF iter   3:    -1.11480539907230   -7.88374e-04   8.14883e-05 DIIS
+   @RHF iter   4:    -1.11481101589706   -5.61682e-06   3.57833e-06 DIIS
+   @RHF iter   5:    -1.11481102399016   -8.09310e-09   3.35774e-07 DIIS
+   @RHF iter   6:    -1.11481102409629   -1.06130e-10   7.67802e-09 DIIS
+   @RHF iter   7:    -1.11481102409634   -4.26326e-14   3.12509e-10 DIIS
+   @RHF iter   8:    -1.11481102409634    2.22045e-16   2.79415e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.543690  
+
+    Virtual:                                                              
+
+       2A      0.137798     3A      0.321813     4A      0.572157  
+       5A      0.676113     6A      0.676113     7A      1.036136  
+       8A      1.081353     9A      1.081353    10A      1.488132  
+      11A      2.492155    12A      2.502584    13A      3.185921  
+      14A      3.185921    15A      3.282693    16A      3.282693  
+      17A      3.542081    18A      3.893464    19A      3.893464  
+      20A      3.976507    21A      3.976507    22A      3.992254  
+      23A      3.992254    24A      4.178235    25A      5.112265  
+      26A      5.112265    27A      5.162395    28A      6.370159  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+    NA   [     1 ]
+    NB   [     1 ]
+
+  @RHF Final Energy:    -1.11481102409634
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.5716952493123235
+    One-Electron Energy =                  -2.2856331731415604
+    Two-Electron Energy =                   0.5991268997329005
+    Total Energy =                         -1.1148110240963365
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -0.0000000            0.0000000           -0.0000000
+ Magnitude           :                                                    0.0000000
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on Angelinas-MacBook-Pro-661.local at Thu Feb 19 13:50:44 2026
+Module time:
+	user time   =       0.06 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     183.14 seconds =       3.05 minutes
+	system time =     188.49 seconds =       3.14 minutes
+	total time  =       1822 seconds =      30.37 minutes
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 4
+      Number of atoms:                   2
+      Number of AO shells:              12
+      Number of SO shells:              12
+      Number of primitives:             16
+      Number of atomic orbitals:        30
+      Number of basis functions:        28
+
+      Number of irreps:                  1
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [  28 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 19125 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+*** tstart() called on Angelinas-MacBook-Pro-661.local
+*** at Thu Feb 19 13:50:44 2026
+
+
+	Wfn Parameters:
+	--------------------
+	Wavefunction         = CCSD
+	Number of irreps     = 1
+	Number of MOs        = 28
+	Number of active MOs = 28
+	AO-Basis             = NONE
+	Semicanonical        = false
+	Reference            = RHF
+	Print Level          = 1
+
+	IRREP	# MOs	# FZDC	# DOCC	# SOCC	# VIRT	# FZVR
+	-----	-----	------	------	------	------	------
+	 A	   28	    0	    1	    0	    27	    0
+	Transforming integrals...
+	IWL integrals will be deleted.
+	(OO|OO)...
+	Presorting SO-basis two-electron integrals.
+	Sorting File: SO Ints (nn|nn) nbuckets = 1
+	Constructing frozen core operators
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OO|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OO|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|OO)...
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|OO)...
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	Frozen core energy     =      0.00000000000000
+
+	Size of irrep 0 of <ab|cd> integrals:      0.531 (MW) /      4.252 (MB)
+	Total:                                     0.531 (MW) /      4.252 (MB)
+
+	Size of irrep 0 of <ia|bc> integrals:      0.020 (MW) /      0.157 (MB)
+	Total:                                     0.020 (MW) /      0.157 (MB)
+
+	Size of irrep 0 of tijab amplitudes:       0.001 (MW) /      0.006 (MB)
+	Total:                                     0.001 (MW) /      0.006 (MB)
+
+	Nuclear Rep. energy          =      0.57169524931232
+	SCF energy                   =     -1.11481102409634
+	One-electron energy          =     -2.28563317355635
+	Two-electron energy          =      0.59912690014769
+	Reference energy             =     -1.11481102409634
+
+*** tstop() called on Angelinas-MacBook-Pro-661.local at Thu Feb 19 13:50:44 2026
+Module time:
+	user time   =       0.01 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     183.15 seconds =       3.05 minutes
+	system time =     188.52 seconds =       3.14 minutes
+	total time  =       1822 seconds =      30.37 minutes
+            **************************
+            *                        *
+            *        CCENERGY        *
+            *                        *
+            **************************
+
+    Nuclear Rep. energy (wfn)     =    0.571695249312324
+    SCF energy          (wfn)     =   -1.114811024096336
+    Reference energy    (file100) =   -1.114811024096335
+
+    Input parameters:
+    -----------------
+    Wave function   =     CCSD
+    Reference wfn   =     RHF
+    Brueckner       =     No
+    Memory (Mbytes) =     3000.0
+    Maxiter         =     50
+    R_Convergence   =     1.0e-07
+    E_Convergence   =     1.0e-10
+    Restart         =     Yes
+    DIIS            =     Yes
+    AO Basis        =     NONE
+    ABCD            =     NEW
+    Cache Level     =     2
+    Cache Type      =     LOW
+    Print Level     =     1
+    Num. of threads =     4
+    # Amps to Print =     10
+    Print MP2 Amps? =     No
+    Analyze T2 Amps =     No
+    Print Pair Ener =     No
+    Local CC        =     No
+    SCS-MP2         =     False
+    SCSN-MP2        =     False
+    SCS-CCSD        =     False
+
+MP2 correlation energy -0.0326406504193856
+                Solving CC Amplitude Equations
+                ------------------------------
+  Iter             Energy              RMS        T1Diag      D1Diag    New D1Diag    D2Diag
+  ----     ---------------------    ---------   ----------  ----------  ----------   --------
+     0        -0.032640650419386    0.000e+00    0.000000    0.000000    0.000000    0.112297
+     1        -0.038638168376395    3.228e-02    0.005415    0.007658    0.007658    0.140680
+     2        -0.042086830954442    1.324e-02    0.008734    0.012352    0.012352    0.158935
+     3        -0.042146040740144    1.831e-03    0.009208    0.013022    0.013022    0.160075
+     4        -0.042161812028029    2.098e-04    0.009292    0.013140    0.013140    0.160201
+     5        -0.042157445598849    2.608e-05    0.009298    0.013149    0.013149    0.160175
+     6        -0.042157727760085    2.893e-06    0.009299    0.013151    0.013151    0.160176
+     7        -0.042157746848398    5.083e-07    0.009300    0.013152    0.013152    0.160176
+     8        -0.042157739847029    7.231e-08    0.009300    0.013152    0.013152    0.160176
+     9        -0.042157741092699    9.090e-09    0.009300    0.013152    0.013152    0.160176
+    10        -0.042157741140923    1.106e-09    0.009300    0.013152    0.013152    0.160176
+    11        -0.042157741128641    1.695e-10    0.009300    0.013152    0.013152    0.160176
+
+    Iterations converged.
+
+
+    Largest TIA Amplitudes:
+              0   1         0.0110461072
+              0   5        -0.0054651151
+              0   9         0.0039834471
+              0  15         0.0021058928
+              0  25         0.0008816084
+
+    Largest TIjAb Amplitudes:
+      0   0   0   0        -0.0704288268
+      0   0   0   2        -0.0624097992
+      0   0   2   0        -0.0624097992
+      0   0   2   2        -0.0622847480
+      0   0   3   3        -0.0429797710
+      0   0   4   4        -0.0429797710
+      0   0   1   1        -0.0400543229
+      0   0   2  10        -0.0168479354
+      0   0  10   2        -0.0168479354
+      0   0   1   5        -0.0148562940
+
+    SCF energy       (wfn)                    =   -1.114811024096336
+    Reference energy (file100)                =   -1.114811024096335
+
+    Opposite-spin MP2 correlation energy      =   -0.032640650419386
+    Same-spin MP2 correlation energy          =    0.000000000000000
+    Singles MP2 correlation energy            =   -0.000000000000000
+    MP2 correlation energy                    =   -0.032640650419386
+      * MP2 total energy                      =   -1.147451674515721
+
+    Opposite-spin CCSD correlation energy     =   -0.042157741128641
+    Same-spin CCSD correlation energy         =    0.000000000000000
+    Singles CCSD correlation energy           =    0.000000000000000
+    CCSD correlation energy                   =   -0.042157741128641
+      * CCSD total energy                     =   -1.156968765224976
+
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on Angelinas-MacBook-Pro-661.local
+*** at Thu Feb 19 13:50:44 2026
+
+   => Loading Basis Set <=
+
+    Name: CC-PVTZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry H          line    23 file /opt/anaconda3/envs/psi4/share/psi4/basis/cc-pvtz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        4 Threads,   2861 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: D_inf_h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         H            0.000000000000     0.000000000000    -0.462814070352     1.007825032230
+         H            0.000000000000     0.000000000000     0.462814070352     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     39.04525  C =     39.04525 [cm^-1]
+  Rotational constants: A = ************  B = 1170547.26614  C = 1170547.26614 [MHz]
+  Nuclear repulsion =    0.571695249312324
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVTZ
+    Blend: CC-PVTZ
+    Number of shells: 12
+    Number of basis functions: 28
+    Number of Cartesian functions: 30
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              12
+      Number of primitives:             16
+      Number of atomic orbitals:        30
+      Number of basis functions:        28
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 4
+
+  Performing in-core PK
+  Using 165242 doubles for integral storage.
+  We computed 5074 shell quartets total.
+  Whereas there are 3081 unique shell quartets.
+    64.69 percent of shell quartets recomputed by reordering.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:             2145
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              4
+
+  Minimum eigenvalue in the overlap matrix is 4.6102712063E-03.
+  Reciprocal condition number of the overlap matrix is 1.1420963456E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         28      28 
+   -------------------------
+    Total      28      28
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -1.11521721019196   -1.11522e+00   0.00000e+00 
+   @RHF iter   1:    -1.09213582697197    2.30814e-02   4.79588e-03 ADIIS/DIIS
+   @RHF iter   2:    -1.11401702463441   -2.18812e-02   8.38297e-04 ADIIS/DIIS
+   @RHF iter   3:    -1.11480539907230   -7.88374e-04   8.14883e-05 DIIS
+   @RHF iter   4:    -1.11481101589706   -5.61682e-06   3.57833e-06 DIIS
+   @RHF iter   5:    -1.11481102399017   -8.09311e-09   3.35774e-07 DIIS
+   @RHF iter   6:    -1.11481102409629   -1.06127e-10   7.67802e-09 DIIS
+   @RHF iter   7:    -1.11481102409633   -3.97460e-14   3.12509e-10 DIIS
+   @RHF iter   8:    -1.11481102409633    2.22045e-16   2.79411e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.543690  
+
+    Virtual:                                                              
+
+       2A      0.137798     3A      0.321813     4A      0.572157  
+       5A      0.676113     6A      0.676113     7A      1.036136  
+       8A      1.081353     9A      1.081353    10A      1.488132  
+      11A      2.492155    12A      2.502584    13A      3.185921  
+      14A      3.185921    15A      3.282693    16A      3.282693  
+      17A      3.542081    18A      3.893464    19A      3.893464  
+      20A      3.976507    21A      3.976507    22A      3.992254  
+      23A      3.992254    24A      4.178235    25A      5.112265  
+      26A      5.112265    27A      5.162395    28A      6.370159  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+    NA   [     1 ]
+    NB   [     1 ]
+
+  @RHF Final Energy:    -1.11481102409633
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.5716952493123235
+    One-Electron Energy =                  -2.2856331731415604
+    Two-Electron Energy =                   0.5991268997329033
+    Total Energy =                         -1.1148110240963336
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -0.0000000            0.0000000           -0.0000000
+ Magnitude           :                                                    0.0000000
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on Angelinas-MacBook-Pro-661.local at Thu Feb 19 13:50:44 2026
+Module time:
+	user time   =       0.05 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     183.23 seconds =       3.05 minutes
+	system time =     188.59 seconds =       3.14 minutes
+	total time  =       1822 seconds =      30.37 minutes
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 4
+      Number of atoms:                   2
+      Number of AO shells:              12
+      Number of SO shells:              12
+      Number of primitives:             16
+      Number of atomic orbitals:        30
+      Number of basis functions:        28
+
+      Number of irreps:                  1
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [  28 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 19125 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+*** tstart() called on Angelinas-MacBook-Pro-661.local
+*** at Thu Feb 19 13:50:44 2026
+
+
+	Wfn Parameters:
+	--------------------
+	Wavefunction         = CCSD
+	Number of irreps     = 1
+	Number of MOs        = 28
+	Number of active MOs = 28
+	AO-Basis             = NONE
+	Semicanonical        = false
+	Reference            = RHF
+	Print Level          = 1
+
+	IRREP	# MOs	# FZDC	# DOCC	# SOCC	# VIRT	# FZVR
+	-----	-----	------	------	------	------	------
+	 A	   28	    0	    1	    0	    27	    0
+	Transforming integrals...
+	IWL integrals will be deleted.
+	(OO|OO)...
+	Presorting SO-basis two-electron integrals.
+	Sorting File: SO Ints (nn|nn) nbuckets = 1
+	Constructing frozen core operators
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OO|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OO|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|OO)...
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(OV|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|OO)...
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|OV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	(VV|VV)...
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+	Frozen core energy     =      0.00000000000000
+
+	Size of irrep 0 of <ab|cd> integrals:      0.531 (MW) /      4.252 (MB)
+	Total:                                     0.531 (MW) /      4.252 (MB)
+
+	Size of irrep 0 of <ia|bc> integrals:      0.020 (MW) /      0.157 (MB)
+	Total:                                     0.020 (MW) /      0.157 (MB)
+
+	Size of irrep 0 of tijab amplitudes:       0.001 (MW) /      0.006 (MB)
+	Total:                                     0.001 (MW) /      0.006 (MB)
+
+	Nuclear Rep. energy          =      0.57169524931232
+	SCF energy                   =     -1.11481102409633
+	One-electron energy          =     -2.28563317355635
+	Two-electron energy          =      0.59912690014769
+	Reference energy             =     -1.11481102409633
+
+*** tstop() called on Angelinas-MacBook-Pro-661.local at Thu Feb 19 13:50:44 2026
+Module time:
+	user time   =       0.01 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     183.25 seconds =       3.05 minutes
+	system time =     188.61 seconds =       3.14 minutes
+	total time  =       1822 seconds =      30.37 minutes
+            **************************
+            *                        *
+            *        CCENERGY        *
+            *                        *
+            **************************
+
+    Nuclear Rep. energy (wfn)     =    0.571695249312324
+    SCF energy          (wfn)     =   -1.114811024096334
+    Reference energy    (file100) =   -1.114811024096335
+
+    Input parameters:
+    -----------------
+    Wave function   =     CCSD
+    Reference wfn   =     RHF
+    Brueckner       =     No
+    Memory (Mbytes) =     3000.0
+    Maxiter         =     50
+    R_Convergence   =     1.0e-07
+    E_Convergence   =     1.0e-10
+    Restart         =     Yes
+    DIIS            =     Yes
+    AO Basis        =     NONE
+    ABCD            =     NEW
+    Cache Level     =     2
+    Cache Type      =     LOW
+    Print Level     =     1
+    Num. of threads =     4
+    # Amps to Print =     10
+    Print MP2 Amps? =     No
+    Analyze T2 Amps =     No
+    Print Pair Ener =     No
+    Local CC        =     No
+    SCS-MP2         =     False
+    SCSN-MP2        =     False
+    SCS-CCSD        =     False
+
+    Using old T1 amplitudes.
+    Using old T2 amplitudes.
+
+MP2 correlation energy -0.0326406504193850
+                Solving CC Amplitude Equations
+                ------------------------------
+  Iter             Energy              RMS        T1Diag      D1Diag    New D1Diag    D2Diag
+  ----     ---------------------    ---------   ----------  ----------  ----------   --------
+     0        -0.042035476234343    0.000e+00    0.009300    0.013152    0.013152    0.160176
+     1        -0.042134494100621    6.141e-03    0.009264    0.013101    0.013101    0.160134
+     2        -0.042157257025175    1.297e-03    0.009293    0.013142    0.013142    0.160181
+     3        -0.042157933421248    2.691e-05    0.009298    0.013149    0.013149    0.160179
+     4        -0.042157878858874    6.921e-06    0.009299    0.013151    0.013151    0.160177
+     5        -0.042157779882836    1.121e-06    0.009300    0.013152    0.013152    0.160176
+     6        -0.042157744677466    2.016e-07    0.009300    0.013152    0.013152    0.160176
+     7        -0.042157741389161    2.711e-08    0.009300    0.013152    0.013152    0.160176
+     8        -0.042157741193199    4.925e-09    0.009300    0.013152    0.013152    0.160176
+     9        -0.042157741134900    7.311e-10    0.009300    0.013152    0.013152    0.160176
+    10        -0.042157741129150    1.083e-10    0.009300    0.013152    0.013152    0.160176
+
+    Iterations converged.
+
+
+    Largest TIA Amplitudes:
+              0   1         0.0110461072
+              0   5        -0.0054651151
+              0   9         0.0039834471
+              0  15         0.0021058928
+              0  25         0.0008816084
+
+    Largest TIjAb Amplitudes:
+      0   0   0   0        -0.0704288268
+      0   0   0   2        -0.0624097992
+      0   0   2   0        -0.0624097992
+      0   0   2   2        -0.0622847481
+      0   0   3   3        -0.0429797710
+      0   0   4   4        -0.0429797710
+      0   0   1   1        -0.0400543230
+      0   0   2  10        -0.0168479354
+      0   0  10   2        -0.0168479354
+      0   0   1   5        -0.0148562940
+
+    SCF energy       (wfn)                    =   -1.114811024096334
+    Reference energy (file100)                =   -1.114811024096335
+
+    Opposite-spin MP2 correlation energy      =   -0.032640650419385
+    Same-spin MP2 correlation energy          =   -0.000000000000000
+    Singles MP2 correlation energy            =   -0.000000000000000
+    MP2 correlation energy                    =   -0.032640650419385
+      * MP2 total energy                      =   -1.147451674515720
+
+    Opposite-spin CCSD correlation energy     =   -0.042157741129150
+    Same-spin CCSD correlation energy         =    0.000000000000000
+    Singles CCSD correlation energy           =    0.000000000000000
+    CCSD correlation energy                   =   -0.042157741129150
+      * CCSD total energy                     =   -1.156968765225485
+
+
+			**************************
+			*                        *
+			*         CCHBAR         *
+			*                        *
+			**************************
+
+
+	**********************************************************
+	*  CCEOM: An Equation of Motion Coupled Cluster Program  *
+	**********************************************************
+
+	Nuclear Rep. energy (wfn)     =    0.571695249312324
+	SCF energy          (wfn)     =   -1.114811024096334
+	Reference energy    (file100) =   -1.114811024096335
+	CCSD energy         (file100) =   -0.042157741129150
+
+	Input parameters:
+	-----------------
+	Reference wfn   =     RHF
+	Reference EOM wfn=     RHF
+	Memory (Mbytes) =  3000.0
+	ABCD            =     NEW
+	Cache Level     =    2
+	Cache Type      =     LRU
+	Num. of threads =     4
+	Local CC        =     No
+
+
+	CCEOM parameters:
+	-----------------
+	States sought per irrep     = A 5,
+	Max. number of iterations   =    80
+	Vectors stored per root     =    12
+	Print HbarSS iterations?    =     0
+	Excitation range for HBarSS =     2
+	Eigenvalue tolerance        = 1.0e-10
+	Eigenvalue toleranceSS      = 1.0e-06
+	Residual vector tolerance   = 1.0e-06
+	Residual vector toleranceSS = 1.0e-06
+	Complex tolerance           = 1.0e-12
+	Root for properties         =     5
+	Sym of state for properties =      A
+	Guess vectors taken from    = SINGLES
+	Restart EOM CC3             = NO
+	Collapse with last vector   = YES
+
+
+
+Fae   dot Fae   total  305.1503648488
+Fmi   dot Fmi   total    0.3415833346
+Fme   dot Fme   total    0.0000019374
+WMBIJ dot WMBIJ total    0.0000000000
+Wmbij dot Wmbij total    0.0000000000
+WMbIj dot WMbIj total    0.0229713423
+WmBiJ dot WmBiJ total    0.0000000000
+Symmetry of ground state: A
+Symmetry of excited state: A
+Symmetry of right eigenvector: A
+Seeking states with multiplicity of 1
+Obtaining initial guess from singles-singles block of Hbar...Done.
+
+Iter=1    L=5     Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4823859175   4.82e-01    2.67e-01      N
+                     2   0.6588257049   6.59e-01    2.64e-01      N
+                     3   0.8826629778   8.83e-01    3.56e-01      N
+                     4   0.9236596150   9.24e-01    2.91e-01      N
+                     5   0.9236596150   9.24e-01    2.91e-01      N
+Iter=2    L=10    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4415270325  -4.09e-02    5.94e-02      N
+                     2   0.6190678465  -3.98e-02    9.68e-02      N
+                     3   0.8305728212  -5.21e-02    1.08e-01      N
+                     4   0.8865686661  -3.71e-02    7.45e-02      N
+                     5   0.8865686662  -3.71e-02    7.45e-02      N
+Iter=3    L=15    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4403053976  -1.22e-03    1.11e-02      N
+                     2   0.6158970513  -3.17e-03    1.79e-02      N
+                     3   0.8247513238  -5.82e-03    3.84e-02      N
+                     4   0.8839561799  -2.61e-03    1.73e-02      N
+                     5   0.8839561799  -2.61e-03    1.73e-02      N
+Iter=4    L=20    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402610376  -4.44e-05    1.91e-03      N
+                     2   0.6157383863  -1.59e-04    9.09e-03      N
+                     3   0.8239788288  -7.72e-04    9.13e-03      N
+                     4   0.8838489175  -1.07e-04    2.92e-03      N
+                     5   0.8838489175  -1.07e-04    2.92e-03      N
+Iter=5    L=25    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600609  -9.77e-07    1.51e-04      N
+                     2   0.6156840011  -5.44e-05    3.90e-03      N
+                     3   0.8239387270  -4.01e-05    1.18e-03      N
+                     4   0.8838308295  -1.81e-05    8.74e-04      N
+                     5   0.8838308295  -1.81e-05    8.74e-04      N
+Iter=6    L=30    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600930   3.21e-08    9.45e-06      N
+                     2   0.6156760447  -7.96e-06    9.50e-04      N
+                     3   0.8239391070   3.80e-07    1.18e-04      N
+                     4   0.8648574990  -1.90e-02    1.30e-01      N
+                     5   0.8838294945  -1.33e-06    1.07e-04      N
+Iter=7    L=35    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600900  -3.01e-09    8.45e-07      N
+                     2   0.6156737363  -2.31e-06    2.08e-04      N
+                     3   0.8239391205   1.34e-08    1.07e-05      N
+                     4   0.8506594649  -1.42e-02    4.87e-02      N
+                     5   0.8838294945   6.66e-16    1.22e-04      N
+Iter=8    L=40    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896  -3.55e-10    6.81e-08      N
+                     2   0.6156733697  -3.67e-07    3.34e-05      N
+                     3   0.8239391154  -5.13e-09    1.18e-06      N
+                     4   0.8494617309  -1.20e-03    1.01e-02      N
+                     5   0.8838296597   1.65e-07    2.29e-05      N
+Iter=9    L=45    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896  -1.33e-11    4.30e-09      Y
+                     2   0.6156734516   8.19e-08    5.32e-06      N
+                     3   0.8239391144  -9.42e-10    1.12e-07      N
+                     4   0.8494274727  -3.43e-05    1.69e-03      N
+                     5   0.8838296597   9.99e-16    2.29e-05      N
+Iter=10   L=49    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896  -1.09e-12    4.25e-09      Y
+                     2   0.6156734670   1.53e-08    7.86e-07      N
+                     3   0.8239391146   1.93e-10    1.16e-08      N
+                     4   0.8494293092   1.84e-06    3.00e-04      N
+                     5   0.8838297104   5.07e-08    2.74e-06      N
+Iter=11   L=53    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896  -3.83e-13    4.25e-09      Y
+                     2   0.6156734671   1.01e-10    1.02e-07      N
+                     3   0.8239391146   2.26e-11    1.15e-09      Y
+                     4   0.8494299954   6.86e-07    5.01e-05      N
+                     5   0.8838297104   5.55e-16    2.74e-06      N
+Iter=12   L=56    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896   4.00e-15    4.25e-09      Y
+                     2   0.6156734668  -2.52e-10    1.54e-08      N
+                     3   0.8239391146   2.22e-16    1.15e-09      Y
+                     4   0.8494300395   4.42e-08    9.34e-06      N
+                     5   0.8838297165   6.12e-09    3.56e-07      N
+Iter=13   L=59    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896  -1.44e-15    4.25e-09      Y
+                     2   0.6156734668  -3.08e-11    1.49e-09      Y
+                     3   0.8239391146   2.66e-15    1.15e-09      Y
+                     4   0.8494300356  -3.89e-09    1.13e-06      N
+                     5   0.8838297165  -1.33e-15    3.56e-07      Y
+Iter=14   L=60    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4402600896   7.22e-16    4.25e-09      Y
+                     2   0.6156734668   1.32e-12    2.56e-10      Y
+                     3   0.8239391146  -3.22e-15    1.15e-09      Y
+                     4   0.8494300365   8.75e-10    1.50e-07      N
+                     5   0.8838297165  -5.55e-16    3.56e-07      Y
+Iter=15   L=10    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4395118421  -7.48e-04    5.52e-02      N
+                     2   0.6156734690   2.25e-09    1.19e-06      N
+                     3   0.8228180530  -1.12e-03    5.39e-02      N
+                     4   0.8494300364  -1.47e-10    1.82e-07      N
+                     5   0.8838297164  -1.11e-10    3.29e-07      N
+Iter=16   L=15    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.4391195557  -3.92e-04    6.00e-02      N
+                     2   0.6156734694   3.87e-10    1.07e-06      N
+                     3   0.8222294423  -5.89e-04    4.92e-02      N
+                     4   0.8494300366   2.49e-10    8.38e-08      N
+                     5   0.8838297167   3.05e-10    3.85e-08      N
+Iter=17   L=20    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.1326248887  -3.06e-01    6.59e-01      N
+                     2   0.4434904095  -1.72e-01    6.20e-02      N
+                     3   0.6156734695  -2.07e-01    1.05e-06      N
+                     4   0.8225187632  -2.69e-02    4.29e-02      N
+                     5   0.8494300367  -3.44e-02    8.05e-08      N
+Iter=18   L=25    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0010696368  -1.32e-01    7.35e-02      N
+                     2   0.4423843366  -1.11e-03    2.28e-02      N
+                     3   0.6156734694  -1.02e-10    1.03e-06      N
+                     4   0.8223406811  -1.78e-04    4.29e-02      N
+                     5   0.8494300367  -2.15e-12    7.94e-08      Y
+Iter=19   L=29    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000102155  -1.06e-03    5.97e-03      N
+                     2   0.4423832170  -1.12e-06    2.23e-02      N
+                     3   0.6156734694  -2.81e-12    1.03e-06      N
+                     4   0.8216119797  -7.29e-04    6.76e-02      N
+                     5   0.8494300367   1.39e-11    7.91e-08      Y
+Iter=20   L=33    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000001123  -1.01e-05    7.45e-04      N
+                     2   0.1112839889  -3.31e-01    6.02e-01      N
+                     3   0.4423870989  -1.73e-01    2.21e-02      N
+                     4   0.6156734694  -2.06e-01    1.03e-06      N
+                     5   0.8248581512  -2.46e-02    2.68e-02      N
+Iter=21   L=37    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000006  -1.12e-07    5.51e-05      N
+                     2   0.0007863059  -1.10e-01    6.27e-02      N
+                     3   0.4423865164  -5.83e-07    2.18e-02      N
+                     4   0.6156734695   1.39e-10    1.03e-06      N
+                     5   0.8246337381  -2.24e-04    1.52e-02      N
+Iter=22   L=42    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -6.28e-10    4.86e-06      N
+                     2   0.0000054860  -7.81e-04    5.07e-03      N
+                     3   0.4423814733  -5.04e-06    2.17e-02      N
+                     4   0.6156734695   2.62e-11    1.02e-06      N
+                     5   0.8246262131  -7.52e-06    1.48e-02      N
+Iter=23   L=47    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -5.64e-12    4.45e-07      Y
+                     2   0.0000000380  -5.45e-06    4.07e-04      N
+                     3   0.4423808586  -6.15e-07    2.16e-02      N
+                     4   0.6156734692  -3.85e-10    1.07e-06      N
+                     5   0.8246257917  -4.21e-07    1.47e-02      N
+Iter=24   L=51    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -3.68e-14    1.96e-07      Y
+                     2   0.0000000002  -3.77e-08    3.31e-05      N
+                     3   0.4423827513   1.89e-06    2.20e-02      N
+                     4   0.5170013737  -9.87e-02    1.27e+00      N
+                     5   0.6156734686  -2.09e-01    9.29e-06      N
+Iter=25   L=55    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -7.29e-17    1.88e-07      Y
+                     2   0.0000000000  -2.42e-10    2.19e-06      N
+                     3   0.0034125363  -4.39e-01    1.25e-01      N
+                     4   0.4423808005  -7.46e-02    2.14e-02      N
+                     5   0.6156734676  -9.31e-10    3.78e-07      N
+Iter=26   L=59    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1  -0.0000000000  -8.17e-15    1.40e-07      Y
+                     2   0.0000000000  -1.11e-12    1.66e-07      Y
+                     3   0.0000095265  -3.40e-03    6.77e-03      N
+                     4   0.4423863080   5.51e-06    2.13e-02      N
+                     5   0.6156734677   6.44e-11    3.68e-07      Y
+Iter=27   L=61    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1  -0.0000000000   1.27e-15    1.40e-07      Y
+                     2   0.0000000000   1.14e-15    1.57e-07      Y
+                     3   0.0000003918  -9.13e-06    8.07e-04      N
+                     4   0.4423791126  -7.20e-06    2.13e-02      N
+                     5   0.6156734676  -5.97e-11    3.66e-07      Y
+Iter=28   L=10    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   6.40e-15    1.41e-07      Y
+                     2   0.0000000000  -2.82e-16    1.57e-07      Y
+                     3   0.0000003918  -1.74e-16    8.07e-04      N
+                     4   0.4423793170   2.04e-07    2.12e-02      N
+                     5   0.6156734698   2.12e-09    4.82e-07      N
+Iter=29   L=13    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   1.66e-16    1.41e-07      Y
+                     2   0.0000000000  -7.64e-17    1.57e-07      Y
+                     3   0.0000001376  -2.54e-07    5.19e-04      N
+                     4   0.4421558950  -2.23e-04    4.68e-03      N
+                     5   0.6156734694  -3.91e-10    3.29e-07      N
+Iter=30   L=16    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -1.90e-16    1.40e-07      Y
+                     2   0.0000000000  -1.67e-16    1.53e-07      Y
+                     3   0.0000000431  -9.45e-08    2.34e-04      N
+                     4   0.4420886638  -6.72e-05    1.64e-02      N
+                     5   0.6156734701   6.89e-10    2.86e-07      N
+Iter=31   L=19    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   1.66e-18    1.40e-07      Y
+                     2   0.0000000000  -8.76e-17    1.52e-07      Y
+                     3   0.0000000158  -2.73e-08    1.64e-04      N
+                     4   0.4385894601  -3.50e-03    1.12e-01      N
+                     5   0.6156734698  -2.21e-10    2.90e-07      N
+Iter=32   L=22  
+Sum of complex part of HBar eigenvalues    0.038480710392498,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -1.61e-16    1.40e-07      Y
+                     2   0.0000000000  -3.58e-16    1.51e-07      Y
+                     3   0.0000000053  -1.05e-08    9.03e-05      N
+                     4   0.3243151203  -1.14e-01    5.35e-01      N
+                     5   0.5491459506  -6.65e-02    4.42e-01      N
+Iter=33   L=25  
+Sum of complex part of HBar eigenvalues    0.036421230868063,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   1.80e-16    1.40e-07      Y
+                     2   0.0000000000   1.95e-16    1.51e-07      Y
+                     3   0.0000000013  -4.06e-09    5.00e-05      N
+                     4   0.0192288976  -3.05e-01    2.36e-01      N
+                     5   0.4894762098  -5.97e-02    1.39e-01      N
+Iter=34   L=28  
+Sum of complex part of HBar eigenvalues    0.006025626754197,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -2.97e-16    1.39e-07      Y
+                     2   0.0000000000  -1.10e-16    1.50e-07      Y
+                     3   0.0000000004  -8.55e-10    2.54e-05      N
+                     4   0.0024014639  -1.68e-02    6.53e-02      N
+                     5   0.4868122177  -2.66e-03    1.16e-01      N
+Iter=35   L=31  
+Sum of complex part of HBar eigenvalues    0.045369906675193,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   5.13e-16    1.39e-07      Y
+                     2   0.0000000000  -1.04e-16    1.49e-07      Y
+                     3   0.0000000001  -2.81e-10    1.73e-05      N
+                     4   0.0005448207  -1.86e-03    3.41e-02      N
+                     5   0.4819452578  -4.87e-03    1.37e-01      N
+Iter=36   L=34    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -5.80e-16    1.39e-07      Y
+                     2   0.0000000000   2.34e-16    1.50e-07      Y
+                     3   0.0000000000  -9.81e-11    6.81e-06      N
+                     4   0.0000656783  -4.79e-04    1.12e-02      N
+                     5   0.4707032049  -1.12e-02    1.58e-01      N
+Iter=37   L=37  
+Sum of complex part of HBar eigenvalues    0.049763258519289,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   3.26e-16    1.39e-07      Y
+                     2   0.0000000000  -8.72e-16    1.44e-07      Y
+                     3   0.0000000000  -2.01e-11    4.25e-06      N
+                     4   0.0000240859  -4.16e-05    5.79e-03      N
+                     5   0.4044851063  -6.62e-02    3.91e-01      N
+Iter=38   L=40  
+Sum of complex part of HBar eigenvalues    0.017843250241807,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   2.74e-16    1.39e-07      Y
+                     2   0.0000000000   8.01e-16    1.46e-07      Y
+                     3   0.0000000000  -7.06e-12    1.80e-06      N
+                     4   0.0000056952  -1.84e-05    3.07e-03      N
+                     5   0.1555204501  -2.49e-01    3.93e-01      N
+Iter=39   L=43  
+Sum of complex part of HBar eigenvalues    0.044066783239887,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -2.09e-16    1.39e-07      Y
+                     2   0.0000000000  -6.35e-16    1.43e-07      Y
+                     3   0.0000000000  -1.20e-12    8.99e-07      Y
+                     4   0.0000015805  -4.11e-06    1.67e-03      N
+                     5   0.0813153017  -7.42e-02    3.15e-01      N
+Iter=40   L=45  
+Sum of complex part of HBar eigenvalues    0.067931173749005,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -6.49e-16    1.38e-07      Y
+                     2   0.0000000000  -6.59e-16    1.43e-07      Y
+                     3   0.0000000000  -3.56e-14    8.35e-07      Y
+                     4   0.0000004405  -1.14e-06    8.05e-04      N
+                     5   0.0232187803  -5.81e-02    2.10e-01      N
+Iter=41   L=47  
+Sum of complex part of HBar eigenvalues    0.029050288240597,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   7.10e-16    1.38e-07      Y
+                     2   0.0000000000   2.30e-16    1.43e-07      Y
+                     3   0.0000000000  -3.95e-14    8.01e-07      Y
+                     4   0.0000001449  -2.96e-07    5.14e-04      N
+                     5   0.0045271641  -1.87e-02    8.47e-02      N
+Iter=42   L=49  
+Sum of complex part of HBar eigenvalues    0.132166420980159,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -6.00e-16    1.39e-07      Y
+                     2   0.0000000000  -8.06e-16    1.37e-07      Y
+                     3   0.0000000000  -2.94e-15    7.91e-07      Y
+                     4   0.0000000237  -1.21e-07    2.02e-04      N
+                     5   0.0013756735  -3.15e-03    5.15e-02      N
+Iter=43   L=51  
+Sum of complex part of HBar eigenvalues    0.119883933156125,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -2.05e-17    1.37e-07      Y
+                     2   0.0000000000   7.14e-16    1.38e-07      Y
+                     3   0.0000000000  -1.59e-14    7.84e-07      Y
+                     4   0.0000000063  -1.74e-08    1.03e-04      N
+                     5   0.0002074266  -1.17e-03    1.89e-02      N
+Iter=44   L=53  
+Sum of complex part of HBar eigenvalues    0.158334562360842,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   4.58e-16    1.36e-07      Y
+                     2   0.0000000000   5.96e-18    1.37e-07      Y
+                     3   0.0000000000  -1.08e-14    7.71e-07      Y
+                     4   0.0000000016  -4.73e-09    5.14e-05      N
+                     5   0.0000738035  -1.34e-04    9.83e-03      N
+Iter=45   L=55  
+Sum of complex part of HBar eigenvalues    0.147699164010182,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -4.00e-16    1.35e-07      Y
+                     2   0.0000000000  -6.55e-16    1.37e-07      Y
+                     3   0.0000000000  -2.33e-14    7.64e-07      Y
+                     4   0.0000000006  -1.02e-09    2.77e-05      N
+                     5   0.0000188590  -5.49e-05    6.36e-03      N
+Iter=46   L=57  
+Sum of complex part of HBar eigenvalues    0.144885537097417,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   2.31e-16    1.35e-07      Y
+                     2   0.0000000000   2.15e-16    1.35e-07      Y
+                     3   0.0000000000  -2.09e-14    7.33e-07      Y
+                     4   0.0000000002  -3.83e-10    1.76e-05      N
+                     5   0.0000063918  -1.25e-05    2.91e-03      N
+Iter=47   L=59  
+Sum of complex part of HBar eigenvalues    0.180482936426964,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   6.28e-17    1.33e-07      Y
+                     2   0.0000000000   1.41e-16    1.35e-07      Y
+                     3   0.0000000000  -4.47e-15    7.18e-07      Y
+                     4   0.0000000000  -1.33e-10    7.36e-06      N
+                     5   0.0000015478  -4.84e-06    1.89e-03      N
+Iter=48   L=61  
+Sum of complex part of HBar eigenvalues    0.142960786725617,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -7.25e-17    1.14e-07      Y
+                     2   0.0000000000  -3.60e-16    6.89e-08      Y
+                     3   0.0000000000  -1.41e-14    7.13e-07      Y
+                     4   0.0000000000  -2.51e-11    4.10e-06      N
+                     5   0.0000003448  -1.20e-06    7.02e-04      N
+Iter=49   L=10    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -1.52e-16    1.34e-07      Y
+                     2   0.0000000000   1.11e-16    1.31e-07      Y
+                     3   0.0000000000   1.83e-16    7.13e-07      Y
+                     4   0.0000000000   1.97e-15    4.10e-06      N
+                     5   0.0000003448  -1.21e-15    7.02e-04      N
+Iter=50   L=12    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -2.45e-17    1.32e-07      Y
+                     2   0.0000000000  -1.46e-16    1.31e-07      Y
+                     3   0.0000000000  -3.65e-14    6.88e-07      Y
+                     4   0.0000000000  -6.74e-12    1.84e-06      N
+                     5   0.0000001160  -2.29e-07    4.68e-04      N
+Iter=51   L=14    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -4.98e-17    1.30e-07      Y
+                     2   0.0000000000  -5.57e-17    1.31e-07      Y
+                     3   0.0000000000  -3.31e-14    6.50e-07      Y
+                     4   0.0000000000  -1.43e-12    1.17e-06      N
+                     5   0.0000000368  -7.92e-08    2.20e-04      N
+Iter=52   L=16    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -3.53e-17    1.31e-07      Y
+                     2   0.0000000000   1.06e-16    1.29e-07      Y
+                     3   0.0000000000  -4.33e-14    6.15e-07      Y
+                     4   0.0000000000  -5.69e-13    6.37e-07      Y
+                     5   0.0000000123  -2.45e-08    1.54e-04      N
+Iter=53   L=17  
+Sum of complex part of HBar eigenvalues    0.016387865307423,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   5.07e-17    1.28e-07      Y
+                     2   0.0000000000   5.15e-17    1.29e-07      Y
+                     3   0.0000000000  -1.26e-14    5.92e-07      Y
+                     4   0.0000000000  -6.90e-15    6.36e-07      Y
+                     5   0.0000000027  -9.63e-09    6.41e-05      N
+Iter=54   L=18  
+Sum of complex part of HBar eigenvalues    0.024033085034729,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -1.01e-16    1.30e-07      Y
+                     2   0.0000000000  -1.15e-16    1.30e-07      Y
+                     3   0.0000000000  -1.12e-14    5.68e-07      Y
+                     4   0.0000000000   1.49e-16    6.36e-07      Y
+                     5   0.0000000012  -1.42e-09    4.31e-05      N
+Iter=55   L=19  
+Sum of complex part of HBar eigenvalues    0.075222741339849,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   5.12e-17    1.32e-07      Y
+                     2   0.0000000000   1.50e-16    1.28e-07      Y
+                     3   0.0000000000  -4.89e-17    5.68e-07      Y
+                     4   0.0000000000  -1.02e-15    6.39e-07      Y
+                     5   0.0000000003  -9.18e-10    2.42e-05      N
+Iter=56   L=20  
+Sum of complex part of HBar eigenvalues    0.029018477317626,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   1.52e-16    1.01e-07      Y
+                     2   0.0000000000  -2.10e-16    8.32e-08      Y
+                     3   0.0000000000  -1.02e-15    5.64e-07      Y
+                     4   0.0000000000  -5.29e-15    6.27e-07      Y
+                     5   0.0000000001  -2.11e-10    1.37e-05      N
+Iter=57   L=21  
+Sum of complex part of HBar eigenvalues    0.096298473086960,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -2.60e-16    1.32e-07      Y
+                     2   0.0000000000   1.03e-16    1.28e-07      Y
+                     3   0.0000000000  -5.80e-15    5.65e-07      Y
+                     4   0.0000000000  -4.05e-15    6.20e-07      Y
+                     5   0.0000000000  -9.23e-11    7.45e-06      N
+Iter=58   L=22  
+Sum of complex part of HBar eigenvalues    0.009851153434679,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000   1.33e-16    1.29e-07      Y
+                     2   0.0000000000   9.57e-17    1.30e-07      Y
+                     3   0.0000000000  -5.43e-16    5.59e-07      Y
+                     4   0.0000000000  -2.19e-15    6.15e-07      Y
+                     5   0.0000000000  -1.98e-11    3.51e-06      N
+Iter=59   L=23  
+Sum of complex part of HBar eigenvalues    0.003830098445086,   1.00e-12
+  Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -7.95e-17    1.28e-07      Y
+                     2   0.0000000000  -4.74e-17    1.32e-07      Y
+                     3   0.0000000000  -5.85e-15    5.46e-07      Y
+                     4   0.0000000000  -1.96e-15    6.21e-07      Y
+                     5   0.0000000000  -5.82e-12    2.23e-06      N
+Iter=60   L=24    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -6.50e-17    1.27e-07      Y
+                     2   0.0000000000  -2.70e-16    1.32e-07      Y
+                     3   0.0000000000  -1.95e-15    5.39e-07      Y
+                     4   0.0000000000  -6.79e-15    6.08e-07      Y
+                     5   0.0000000000  -1.94e-12    1.07e-06      N
+Iter=61   L=25    Root    EOM Energy     Delta E   Res. Norm    Conv?
+                     1   0.0000000000  -6.24e-17    1.31e-07      Y
+                     2   0.0000000000  -1.46e-16    1.32e-07      Y
+                     3   0.0000000000  -3.63e-16    5.39e-07      Y
+                     4   0.0000000000  -2.06e-14    6.11e-07      Y
+                     5   0.0000000000  -4.88e-13    6.77e-07      Y
+Collapsing to only 5 vector(s).
+
+Procedure converged for 5 root(s).
+Energy written to CC_INFO:Etot   -1.1569687652
+States per irrep written to CC_INFO.
+EOM CCSD R0 for root 0 =  -1.00000000000
+EOM CCSD R0 for root 1 =  -1.00000000000
+EOM CCSD R0 for root 2 =  -1.00000000000
+EOM CCSD R0 for root 3 =  -1.00000000000
+EOM CCSD R0 for root 4 =   1.00000000000
+
+Final Energetic Summary for Converged Roots of Irrep A
+                     Excitation Energy              Total Energy
+                (eV)     (cm^-1)     (au)             (au)
+EOM State 1      0.000        0.0   0.0000000000    -1.156968765225
+
+Largest components of excited wave function #1:
+ RIA (libdpd indices) : (cscf notation)
+ RIjAb (libdpd indices)     : (cscf notation)
+EOM State 2      0.000        0.0   0.0000000000    -1.156968765225
+
+Largest components of excited wave function #2:
+ RIA (libdpd indices) : (cscf notation)
+ RIjAb (libdpd indices)     : (cscf notation)
+EOM State 3      0.000        0.0   0.0000000000    -1.156968765225
+
+Largest components of excited wave function #3:
+ RIA (libdpd indices) : (cscf notation)
+ RIjAb (libdpd indices)     : (cscf notation)
+EOM State 4      0.000        0.0   0.0000000000    -1.156968765225
+
+Largest components of excited wave function #4:
+ RIA (libdpd indices) : (cscf notation)
+ RIjAb (libdpd indices)     : (cscf notation)
+EOM State 5      0.000        0.0   0.0000000000    -1.156968765225
+
+Largest components of excited wave function #5:
+ RIA (libdpd indices) : (cscf notation)
+ RIjAb (libdpd indices)     : (cscf notation)
+
+	Putting into environment energy for root of R irrep 1 and root 5.
+	Putting into environment CURRENT ENERGY:               -1.1569687652
+
+	Total # of sigma evaluations: 177

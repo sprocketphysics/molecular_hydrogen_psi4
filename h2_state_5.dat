@@ -1,0 +1,373 @@
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on Angelinas-MacBook-Pro-574.local
+*** at Wed Feb 11 20:36:32 2026
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry H          line    40 file /opt/anaconda3/envs/psi4/share/psi4/basis/aug-cc-pvdz.gbs 
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             14
+      Number of atomic orbitals:        18
+      Number of basis functions:        18
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 2
+
+  Performing in-core PK
+  Using 29412 doubles for integral storage.
+  We computed 1632 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+     5.97 percent of shell quartets recomputed by reordering.
+
+
+  ==> Pre-Iterations <==
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -1.14800763624265   -1.14801e+00   0.00000e+00 
+   @RHF iter   1:    -1.09908829406488    4.89193e-02   1.81195e-02 ADIIS/DIIS
+   @RHF iter   2:    -1.12765342987004   -2.85651e-02   3.20142e-03 ADIIS/DIIS
+   @RHF iter   3:    -1.12876709835806   -1.11367e-03   3.21914e-04 ADIIS/DIIS
+   @RHF iter   4:    -1.12877825857132   -1.11602e-05   1.63298e-05 DIIS
+   @RHF iter   5:    -1.12877827497519   -1.64039e-08   1.98076e-06 DIIS
+   @RHF iter   6:    -1.12877827535328   -3.78089e-10   7.38865e-08 DIIS
+   @RHF iter   7:    -1.12877827535376   -4.76508e-13   9.58784e-09 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+  @RHF Final Energy:    -1.12877827535376
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.7151043387432436
+    One-Electron Energy =                  -2.5021848648497160
+    Two-Electron Energy =                   0.6583022507527142
+    Total Energy =                         -1.1287782753537581
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :          0.0000000            0.0000000            0.0000000
+ Magnitude           :                                                    0.0000000
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on Angelinas-MacBook-Pro-574.local at Wed Feb 11 20:36:32 2026
+Module time:
+	user time   =       0.05 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      21.77 seconds =       0.36 minutes
+	system time =       2.95 seconds =       0.05 minutes
+	total time  =         95 seconds =       1.58 minutes
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 2
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of SO shells:               5
+      Number of primitives:             14
+      Number of atomic orbitals:        18
+      Number of basis functions:        18
+
+      Number of irreps:                  8
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [   5    0    2    2    0    5    2    2 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 2376 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+         ---------------------------------------------------------
+                          Configuration Interaction
+                            (a 'D E T C I' module)
+
+                 C. David Sherrill, Daniel G. A. Smith, and
+                              Matt L. Leininger
+         ---------------------------------------------------------
+
+
+   ==> Parameters <==
+
+    EX LEVEL       =        2      H0 BLOCKSIZE  =     1000
+    VAL EX LEVEL   =        0      H0 GUESS SIZE =     1000
+    H0COUPLINGSIZE =        0      H0 COUPLING   =       NO
+    MAXITER        =       24      NUM PRINT     =       20
+    NUM ROOTS      =        6      ICORE         =        1
+    PRINT LVL      =        0      FCI           =       NO
+    R CONV         = 1.00e-04      MIXED         =      YES
+    E CONV         = 1.00e-08      MIXED4        =      YES
+    R4S            =       NO      REPL OTF      =       NO
+    DIAG METHOD    =      SEM      FOLLOW ROOT   =        0
+    PRECONDITIONER = DAVIDSON      UPDATE        = DAVIDSON
+    S              =   0.0000      Ms0           =      YES
+    GUESS VECTOR   =  H0BLOCK      OPENTYPE      =     NONE
+    COLLAPSE SIZE  =        1      HD AVG        = EVANGELISTI
+    MAX NUM VECS   =      150      REF SYM       =     AUTO
+    IOPEN        =       NO
+
+    EX ALLOW       =  1  1 
+    STATE AVERAGE  =  0(1.00) 
+
+   ==> CI Orbital and Space information <==
+
+    RAS1 LVL      =        0      A RAS3 MAX    =        1
+    RAS1 MIN      =        0      B RAS3 MAX    =        1
+    A RAS1 LVL    =        0      RAS4 LVL      =       18
+    A RAS1 MIN    =        0      A RAS4 MAX    =        0
+    A RAS1 MAX    =        1      B RAS4 MAX    =        0
+    B RAS1 LVL    =        0      RAS4 MAX      =        0
+    B RAS1 MIN    =        0      A RAS34 MAX   =        1
+    B RAS1 MAX    =        1      B RAS34 MAX   =        1
+    RAS3 LVL      =        1      RAS34 MAX     =        2
+    RAS3 MAX      =        2
+   ------------------------------------------------------------------------------
+               Space    Total    Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u
+   ------------------------------------------------------------------------------
+                 Nso       18     5     0     2     2     0     5     2     2
+                 Nmo       18     5     0     2     2     0     5     2     2
+               Ndocc        1     1     0     0     0     0     0     0     0
+               Nsocc        0     0     0     0     0     0     0     0     0
+   ------------------------------------------------------------------------------
+                                   CI Spaces
+   ------------------------------------------------------------------------------
+        Dropped DOCC        0     0     0     0     0     0     0     0     0
+                RAS1        1     1     0     0     0     0     0     0     0
+                RAS2        0     0     0     0     0     0     0     0     0
+                RAS3       17     4     0     2     2     0     5     2     2
+                RAS4        0     0     0     0     0     0     0     0     0
+      Active (total)       18     5     0     2     2     0     5     2     2
+        Dropped UOCC        0     0     0     0     0     0     0     0     0
+   ------------------------------------------------------------------------------
+
+   ==> Setting up CI strings <==
+
+
+   ==> Transforming CI integrals <==
+
+(sem_iter): H0block_->H0b_diag[1][1] - H0block_->H0b_diag[2][1] = -0.682277 - 0.682277 = -1.364553 > 1.0E-8
+(sem_iter): H0block_->H0b_diag[1][3] - H0block_->H0b_diag[2][3] = 0.153798 - -0.153798 = 0.307596 > 1.0E-8
+(sem_iter): H0block_->H0b_diag[1][5] - H0block_->H0b_diag[2][5] = 0.084396 - -0.084396 = 0.168791 > 1.0E-8
+(sem_iter): H0block_->H0b_diag[1][8] - H0block_->H0b_diag[2][8] = -0.007202 - 0.007202 = -0.014404 > 1.0E-8
+
+   ==> Energetics <==
+
+    SCF energy =           -1.128778275353758
+    Total CI energy =      -1.164582982398824
+
+   ==> CISD root 0 information <==
+
+    CISD Root 0 energy =    -1.164582982398824
+
+   The 20 most important determinants:
+
+    *   1   -0.991035  (    0,    0)  1AgX 
+    *   2    0.042868  (   10,   10)  2B1uX 
+    *   3    0.033597  (   10,   11)  2B1uA 3B1uB 
+    *   4    0.033597  (   11,   10)  2B1uB 3B1uA 
+    *   5    0.030353  (   12,   12)  4B1uX 
+    *   6    0.029645  (   10,   12)  2B1uA 4B1uB 
+    *   7    0.029645  (   12,   10)  2B1uB 4B1uA 
+    *   8    0.029216  (    3,    3)  4AgX 
+    *   9    0.027570  (   11,   11)  3B1uX 
+    *  10    0.026413  (   11,   12)  3B1uA 4B1uB 
+    *  11    0.026413  (   12,   11)  3B1uB 4B1uA 
+    *  12    0.026231  (   17,   17)  2B3uX 
+    *  13    0.026231  (   15,   15)  2B2uX 
+    *  14    0.025509  (   16,   16)  1B3uX 
+    *  15    0.025509  (   14,   14)  1B2uX 
+    *  16   -0.020457  (   14,   15)  1B2uA 2B2uB 
+    *  17   -0.020457  (   15,   14)  1B2uB 2B2uA 
+    *  18   -0.020457  (   16,   17)  1B3uA 2B3uB 
+    *  19   -0.020457  (   17,   16)  1B3uB 2B3uA 
+    *  20    0.017574  (    2,    3)  3AgA 4AgB 
+
+
+   ==> CISD root 1 information <==
+
+    CISD Root 1 energy =    -0.683012529764991
+
+   The 20 most important determinants:
+
+    *   1    0.690648  (    0,    1)  1AgA 2AgB 
+    *   2    0.690648  (    1,    0)  1AgB 2AgA 
+    *   3    0.116832  (    1,    1)  2AgX 
+    *   4    0.077263  (    1,    3)  2AgA 4AgB 
+    *   5    0.077263  (    3,    1)  2AgB 4AgA 
+    *   6    0.066423  (    2,    1)  2AgB 3AgA 
+    *   7    0.066423  (    1,    2)  2AgA 3AgB 
+    *   8    0.057606  (    0,    2)  1AgA 3AgB 
+    *   9    0.057606  (    2,    0)  1AgB 3AgA 
+    *  10    0.028314  (    0,    3)  1AgA 4AgB 
+    *  11    0.028314  (    3,    0)  1AgB 4AgA 
+    *  12   -0.020691  (    1,    4)  2AgA 5AgB 
+    *  13   -0.020691  (    4,    1)  2AgB 5AgA 
+    *  14   -0.015059  (   12,   12)  4B1uX 
+    *  15    0.014575  (   14,   14)  1B2uX 
+    *  16    0.014575  (   16,   16)  1B3uX 
+    *  17   -0.013237  (   11,   12)  3B1uA 4B1uB 
+    *  18   -0.013237  (   12,   11)  3B1uB 4B1uA 
+    *  19   -0.012478  (   11,   11)  3B1uX 
+    *  20    0.011608  (   10,    9)  1B1uB 2B1uA 
+
+
+   ==> CISD root 2 information <==
+
+    CISD Root 2 energy =    -0.426835387791733
+
+   The 20 most important determinants:
+
+    *   1    0.683661  (    0,    2)  1AgA 3AgB 
+    *   2    0.683661  (    2,    0)  1AgB 3AgA 
+    *   3    0.119785  (    2,    2)  3AgX 
+    *   4    0.096458  (   10,   10)  2B1uX 
+    *   5    0.058845  (    2,    3)  3AgA 4AgB 
+    *   6    0.058845  (    3,    2)  3AgB 4AgA 
+    *   7   -0.057211  (    0,    1)  1AgA 2AgB 
+    *   8   -0.057211  (    1,    0)  1AgB 2AgA 
+    *   9   -0.056381  (    3,    0)  1AgB 4AgA 
+    *  10   -0.056381  (    0,    3)  1AgA 4AgB 
+    *  11    0.054117  (    9,   10)  1B1uA 2B1uB 
+    *  12    0.054117  (   10,    9)  1B1uB 2B1uA 
+    *  13    0.044892  (   10,   11)  2B1uA 3B1uB 
+    *  14    0.044892  (   11,   10)  2B1uB 3B1uA 
+    *  15    0.044175  (    2,    1)  2AgB 3AgA 
+    *  16    0.044175  (    1,    2)  2AgA 3AgB 
+    *  17    0.028725  (    9,    9)  1B1uX 
+    *  18    0.027316  (    9,   11)  1B1uA 3B1uB 
+    *  19    0.027316  (   11,    9)  1B1uB 3B1uA 
+    *  20   -0.026614  (    3,    3)  4AgX 
+
+
+   ==> CISD root 3 information <==
+
+    CISD Root 3 energy =    -0.191131108881590
+
+   The 20 most important determinants:
+
+    *   1    0.657927  (    3,    0)  1AgB 4AgA 
+    *   2    0.657927  (    0,    3)  1AgA 4AgB 
+    *   3   -0.128305  (   10,   10)  2B1uX 
+    *   4    0.127919  (   14,   14)  1B2uX 
+    *   5    0.127919  (   16,   16)  1B3uX 
+    *   6    0.092295  (    3,    3)  4AgX 
+    *   7   -0.087767  (   10,    9)  1B1uB 2B1uA 
+    *   8   -0.087767  (    9,   10)  1B1uA 2B1uB 
+    *   9    0.077373  (    0,    2)  1AgA 3AgB 
+    *  10    0.077373  (    2,    0)  1AgB 3AgA 
+    *  11   -0.074685  (   10,   11)  2B1uA 3B1uB 
+    *  12   -0.074685  (   11,   10)  2B1uB 3B1uA 
+    *  13   -0.060919  (   10,   12)  2B1uA 4B1uB 
+    *  14   -0.060919  (   12,   10)  2B1uB 4B1uA 
+    *  15   -0.053745  (    9,    9)  1B1uX 
+    *  16   -0.048969  (   11,    9)  1B1uB 3B1uA 
+    *  17   -0.048969  (    9,   11)  1B1uA 3B1uB 
+    *  18   -0.048386  (   11,   11)  3B1uX 
+    *  19   -0.046969  (   12,   12)  4B1uX 
+    *  20   -0.044885  (   11,   12)  3B1uA 4B1uB 
+
+
+   ==> CISD root 4 information <==
+
+    CISD Root 4 energy =    -0.091546485723385
+
+   The 20 most important determinants:
+
+    *   1   -0.495120  (   10,   10)  2B1uX 
+    *   2   -0.445969  (   10,    9)  1B1uB 2B1uA 
+    *   3   -0.445969  (    9,   10)  1B1uA 2B1uB 
+    *   4   -0.317106  (    9,    9)  1B1uX 
+    *   5   -0.183660  (   11,    9)  1B1uB 3B1uA 
+    *   6   -0.183660  (    9,   11)  1B1uA 3B1uB 
+    *   7   -0.172753  (    3,    0)  1AgB 4AgA 
+    *   8   -0.172753  (    0,    3)  1AgA 4AgB 
+    *   9   -0.148896  (   10,   11)  2B1uA 3B1uB 
+    *  10   -0.148896  (   11,   10)  2B1uB 3B1uA 
+    *  11    0.120392  (    2,    2)  3AgX 
+    *  12   -0.105319  (    9,   12)  1B1uA 4B1uB 
+    *  13   -0.105319  (   12,    9)  1B1uB 4B1uA 
+    *  14   -0.077617  (   10,   12)  2B1uA 4B1uB 
+    *  15   -0.077617  (   12,   10)  2B1uB 4B1uA 
+    *  16    0.073700  (    2,    1)  2AgB 3AgA 
+    *  17    0.073700  (    1,    2)  2AgA 3AgB 
+    *  18    0.066753  (    0,    2)  1AgA 3AgB 
+    *  19    0.066753  (    2,    0)  1AgB 3AgA 
+    *  20    0.059730  (    1,    1)  2AgX 
+
+
+   ==> CISD root 5 information <==
+
+    CISD Root 5 energy =     0.071209628020000
+
+   The 20 most important determinants:
+
+    *   1    0.654926  (   10,   10)  2B1uX 
+    *   2   -0.429456  (    9,    9)  1B1uX 
+    *   3   -0.247403  (    9,   10)  1B1uA 2B1uB 
+    *   4   -0.247403  (   10,    9)  1B1uB 2B1uA 
+    *   5    0.244498  (   10,   11)  2B1uA 3B1uB 
+    *   6    0.244498  (   11,   10)  2B1uB 3B1uA 
+    *   7   -0.161874  (    9,   11)  1B1uA 3B1uB 
+    *   8   -0.161874  (   11,    9)  1B1uB 3B1uA 
+    *   9    0.121156  (   10,   12)  2B1uA 4B1uB 
+    *  10    0.121156  (   12,   10)  2B1uB 4B1uA 
+    *  11    0.112374  (    1,    1)  2AgX 
+    *  12   -0.099323  (    9,   12)  1B1uA 4B1uB 
+    *  13   -0.099323  (   12,    9)  1B1uB 4B1uA 
+    *  14    0.058205  (   11,   11)  3B1uX 
+    *  15    0.057135  (    3,    0)  1AgB 4AgA 
+    *  16    0.057135  (    0,    3)  1AgA 4AgB 
+    *  17   -0.053521  (   14,   14)  1B2uX 
+    *  18   -0.053521  (   16,   16)  1B3uX 
+    *  19    0.046294  (    2,    1)  2AgB 3AgA 
+    *  20    0.046294  (    1,    2)  2AgA 3AgB 
+
+		 "A good bug is a dead bug" 
+
+			 - Starship Troopers
+
+		 "I didn't write FORTRAN.  That's the problem."
+
+			 - Edward Valeev
+
+  Memory set to 476.837 MiB by Python driver.

@@ -1,0 +1,50 @@
+2026-04-09:15:35:25,100 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:35:25,101 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.64588605335
+2026-04-09:15:35:41,196 INFO     [psi4.driver.driver:528] Return energy(): 0.8306530093084299
+2026-04-09:15:35:41,237 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:35:41,239 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.58381248025088
+2026-04-09:15:35:56,609 INFO     [psi4.driver.driver:528] Return energy(): 0.7746006304008621
+2026-04-09:15:35:56,646 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:35:56,648 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.5245846870073065
+2026-04-09:15:36:11,762 INFO     [psi4.driver.driver:528] Return energy(): 0.7213941535643302
+2026-04-09:15:36:11,808 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:36:11,809 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.4680113606878153
+2026-04-09:15:36:30,878 INFO     [psi4.driver.driver:528] Return energy(): 0.6708400579786722
+2026-04-09:15:36:30,925 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:36:30,927 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.4139179610015074
+2026-04-09:15:36:47,971 INFO     [psi4.driver.driver:528] Return energy(): 0.6227617326431174
+2026-04-09:15:36:48,21 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:36:48,22 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.3621449216234582
+2026-04-09:15:37:05,229 INFO     [psi4.driver.driver:528] Return energy(): 0.5769976695924088
+2026-04-09:15:37:05,284 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:37:05,286 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.3125460781248033
+2026-04-09:15:37:21,578 INFO     [psi4.driver.driver:528] Return energy(): 0.5333998842447836
+2026-04-09:15:37:21,636 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:37:21,638 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.264987289885733
+2026-04-09:15:37:38,345 INFO     [psi4.driver.driver:528] Return energy(): 0.4918325302424935
+2026-04-09:15:37:38,394 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:37:38,396 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.2193452286285895
+2026-04-09:15:37:56,287 INFO     [psi4.driver.driver:528] Return energy(): 0.4521706813975017
+2026-04-09:15:37:56,326 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:37:56,328 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.175506310532222
+2026-04-09:15:38:16,4 INFO     [psi4.driver.driver:528] Return energy(): 0.4142992576734117
+2026-04-09:15:38:16,44 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:38:16,46 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.133365752458959
+2026-04-09:15:38:32,623 INFO     [psi4.driver.driver:528] Return energy(): 0.3781120757003853
+2026-04-09:15:38:32,665 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:38:32,667 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.092826735785154
+2026-04-09:15:38:48,879 INFO     [psi4.driver.driver:528] Return energy(): 0.3435110072769003
+2026-04-09:15:38:48,917 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:38:48,918 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.0537996637891607
+2026-04-09:15:39:05,113 INFO     [psi4.driver.driver:528] Return energy(): 0.3104052317750503
+2026-04-09:15:39:05,154 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:39:05,156 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=2.016201500607666
+2026-04-09:15:39:20,826 INFO     [psi4.driver.driver:528] Return energy(): 0.2787105704239532
+2026-04-09:15:39:20,871 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:39:20,872 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=1.9799551814956178
+2026-04-09:15:39:36,569 INFO     [psi4.driver.driver:528] Return energy(): 0.2483488921732342
+2026-04-09:15:39:36,607 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:39:36,609 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=1.9449890855751657
+2026-04-09:15:39:52,306 INFO     [psi4.driver.driver:528] Return energy(): 0.2192475822923432
+2026-04-09:15:39:52,350 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'D_CONVERGENCE': 1e-10, 'E_CONVERGENCE': 1e-10, 'GUESS': 'SAD', 'SCF__INTS_TOLERANCE': 1e-12, 'MAXITER': 200, 'REFERENCE': 'ROHF', 'SCF_TYPE': 'PK', 'function_kwargs': {}}
+2026-04-09:15:39:52,351 INFO     [psi4.driver.driver:525] Compute energy(): method=fci, basis=aug-cc-pv5z, molecule=default, nre=1.9112365634827548

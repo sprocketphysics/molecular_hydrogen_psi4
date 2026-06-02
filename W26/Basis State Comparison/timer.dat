@@ -1,0 +1,99 @@
+
+Host: Angelinas-MacBook-Pro-1215.local
+
+Timers On : Sun May  3 12:24:21 2026
+Timers Off: Mon May  4 12:31:44 2026
+
+Wall Time:    86842.36 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :     34.667u      0.317s     21.164w   2000 calls
+Libint2ERI::Libint2ERI              :    179.183u      2.750s    110.842w  24000 calls
+DFH: initialize()                   :    104.300u      7.150s     33.962w   2000 calls
+DFH: AO Construction                :     33.633u      1.483s      5.516w   2000 calls
+DFH: AO-Met. Contraction            :     36.117u      1.900s      6.334w   2000 calls
+HF: Form core H                     :      3.517u      3.600s      3.022w   4000 calls
+HF: Form S/X                        :      8.333u      2.950s      5.522w   4000 calls
+HF: Guess                           :     66.000u     15.917s     46.125w   4000 calls
+SAD Guess                           :     63.317u     14.700s     44.246w   4000 calls
+HF: Form G                          :    894.600u     13.617s   2480.657w  36574 calls
+JK: D                               :      0.217u      0.050s      0.183w  36574 calls
+JK: USO2AO                          :      0.117u      0.017s      0.063w  36574 calls
+JK: JK                              :    893.000u     12.533s   2479.409w  36574 calls
+DFH: compute_JK()                   :     98.400u      6.000s     18.291w  18144 calls
+DFH: Grabbing AOs                   :      0.017u      0.033s      0.010w  18144 calls
+DFH: compute_J                      :     70.483u      2.350s     11.838w  18144 calls
+DFH: compute_K                      :     27.433u      1.183s      4.747w  18144 calls
+PK computes JK                      :    794.317u      6.500s   2460.955w  18430 calls
+JK: AO2USO                          :      0.017u      0.000s      0.019w  36574 calls
+HF: Form F                          :      0.733u      1.417s      0.775w  36574 calls
+HF: Form D                          :      0.200u      0.017s      0.158w  36574 calls
+HF: DIIS                            :     77.433u     29.100s     55.946w  32574 calls
+HF: Form C                          :     98.433u     29.267s     62.293w  32574 calls
+Total PK formation time             :   2361.467u     70.650s   1493.217w   2000 calls
+ccenergy                            :   3009.333u   5501.067s   7643.073w   2000 calls
+F build                             :     78.267u     39.150s     73.650w  28093 calls
+Wmbej build                         :     52.600u     99.350s     88.914w  28093 calls
+C->Wmbej                            :      0.467u      1.300s      2.430w  28093 calls
+F->Wmbej                            :     37.900u     86.933s     75.022w  28093 calls
+E->Wmbej                            :      1.500u      3.150s      2.888w  28093 calls
+X->Wmbej                            :     11.700u      6.833s      7.616w  28093 calls
+Z                                   :     28.450u     48.817s     37.572w  28093 calls
+T2 Build                            :   2745.267u   5010.350s   6145.103w  28093 calls
+BT2                                 :   2681.600u   4915.617s   6059.509w  28093 calls
+ABCD:new                            :   2681.600u   4915.550s   6059.432w  28093 calls
+ABCD:S                              :   1225.800u   2230.117s   2768.836w  28093 calls
+ABCD:A                              :   1225.783u   2231.950s   2880.665w  28093 calls
+ABCD:axpy                           :    216.050u    416.683s    381.456w  28093 calls
+FT2                                 :     32.483u     64.767s     50.351w  28093 calls
+WmbejT2                             :      9.833u     13.717s     11.783w  28093 calls
+CT2                                 :      5.900u      8.183s      8.497w  28093 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :     34.667u      0.317s     21.164w   2000 calls
+| Libint2ERI::Libint2ERI            :     23.150u      0.250s     13.919w   2000 calls
+DFH: initialize()                   :    104.300u      7.150s     33.962w   2000 calls
+| Libint2ERI::Libint2ERI            :     22.250u      0.117s     13.517w  10000 calls
+| DFH: AO Construction              :     33.633u      1.483s      5.516w   2000 calls
+| DFH: AO-Met. Contraction          :     36.117u      1.900s      6.334w   2000 calls
+HF: Form core H                     :      3.517u      3.600s      3.022w   4000 calls
+HF: Form S/X                        :      8.333u      2.950s      5.522w   4000 calls
+HF: Guess                           :     66.000u     15.917s     46.125w   4000 calls
+| SAD Guess                         :     63.317u     14.700s     44.246w   4000 calls
+HF: Form G                          :    894.600u     13.617s   2480.657w  36574 calls
+| JK: D                             :      0.217u      0.050s      0.183w  36574 calls
+| JK: USO2AO                        :      0.117u      0.017s      0.063w  36574 calls
+| JK: JK                            :    893.000u     12.533s   2479.409w  36574 calls
+| | DFH: compute_JK()               :     98.400u      6.000s     18.291w  18144 calls
+| | | DFH: Grabbing AOs             :      0.017u      0.033s      0.010w  18144 calls
+| | | DFH: compute_J                :     70.483u      2.350s     11.838w  18144 calls
+| | | DFH: compute_K                :     27.433u      1.183s      4.747w  18144 calls
+| | PK computes JK                  :    794.317u      6.500s   2460.955w  18430 calls
+| JK: AO2USO                        :      0.017u      0.000s      0.019w  36574 calls
+HF: Form F                          :      0.733u      1.417s      0.775w  36574 calls
+HF: Form D                          :      0.200u      0.017s      0.158w  36574 calls
+HF: DIIS                            :     77.433u     29.100s     55.946w  32574 calls
+HF: Form C                          :     98.433u     29.267s     62.293w  32574 calls
+Total PK formation time             :   2361.467u     70.650s   1493.217w   2000 calls
+| Libint2ERI::Libint2ERI            :    111.017u      2.150s     69.625w  10000 calls
+Libint2ERI::Libint2ERI              :     22.767u      0.233s     13.782w   2000 calls
+ccenergy                            :   3009.333u   5501.067s   7643.073w   2000 calls
+| F build                           :     78.267u     39.150s     73.650w  28093 calls
+| Wmbej build                       :     52.600u     99.350s     88.914w  28093 calls
+| | C->Wmbej                        :      0.467u      1.300s      2.430w  28093 calls
+| | F->Wmbej                        :     37.900u     86.933s     75.022w  28093 calls
+| | E->Wmbej                        :      1.500u      3.150s      2.888w  28093 calls
+| | X->Wmbej                        :     11.700u      6.833s      7.616w  28093 calls
+| Z                                 :     28.450u     48.817s     37.572w  28093 calls
+| T2 Build                          :   2745.267u   5010.350s   6145.103w  28093 calls
+| | BT2                             :   2681.600u   4915.617s   6059.509w  28093 calls
+| | | ABCD:new                      :   2681.600u   4915.550s   6059.432w  28093 calls
+| | | | ABCD:S                      :   1225.800u   2230.117s   2768.836w  28093 calls
+| | | | ABCD:A                      :   1225.783u   2231.950s   2880.665w  28093 calls
+| | | | ABCD:axpy                   :    216.050u    416.683s    381.456w  28093 calls
+| | FT2                             :     32.483u     64.767s     50.351w  28093 calls
+| | WmbejT2                         :      9.833u     13.717s     11.783w  28093 calls
+| | CT2                             :      5.900u      8.183s      8.497w  28093 calls
+
+**************************************************************************************
